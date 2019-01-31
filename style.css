@@ -1,0 +1,126 @@
+body{
+	margin: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:center;
+
+}
+/*h1{
+	font-family: fantasy;
+	font-size:3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 0px;
+}*/
+.photos{
+
+	font-size: 5em;
+	text-align: center;
+	height: 100%;
+	width: 200%;
+	box-shadow: 0px 0px 5px 0px #888888;
+	color: white !important;
+
+}
+
+
+img{
+	width:450 px;
+	height:300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+	list-style: none;
+}
+.Container{
+	background-color: rgba(33.3, 33.3, 0, 0.70);
+	height: 50%;
+	width: 100%;
+	padding: 30px;
+	margin: 100px 0px 0px 500px;
+	color: white;
+	border-radius: 40px;
+}
+
+.Container2{
+	background-color: rgba(33.3, 14.5, 0, 0.70);
+	height: 100%;
+	width: 100%;
+	padding: 30px;
+	margin: 100px 0px 0px 0px;
+	color: white;
+
+}
+
+.col{
+	background-color:grey;
+	border:2px solid black;
+	
+}
+
+
+
+
+.navigation{
+	padding: 0px 10px;
+	margin: 0px;
+	background-color: #D4C26A;
+	text-align: right;
+}
+h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #13073A;
+	color: #D8F0A0;
+
+}
+.title{
+	color: white;
+	background-color: #13073A;
+	padding-left: 30px;
+}
+.jumbotron{
+	background-color:rgba(30.6, 39.2, 55.7, 0.50) !important;
+	color: white;
+}
+.lead{
+	color:white;
+}
+
+
+/* trying something different here */
+div{
+	background-color: rgba(44.3,47.8,54.9, 0.70);
+
+}
+
+
+
+	
+
+
+/* */
+body{
+	background-image: url("file:///Users/owner/Desktop/Online%20Course/DNMETV_Test/Images/Fabian_DNME_Resume.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.Footer{
+	background-color: green !important;
+	text-align: center;
+}
